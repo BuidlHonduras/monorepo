@@ -1,6 +1,10 @@
 <template>
   <div>
+    <p v-if="claimed">
+      ✔️ {{ formatAmount(allocatedAmount) }} {{ tokenSymbol }} reclamado
+    </p>
     <button
+      v-if="hasClaimBtn() && !claimed"
       class="btn-action"
       :disabled="!canClaim()"
       @click="claim()"
