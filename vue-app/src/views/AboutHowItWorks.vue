@@ -2,23 +2,23 @@
   <div class="about">
     <h1 class="content-heading">¿Cómo funciona la ronda?</h1>
 
-    <h2>CLR tutorial</h2>
+    <h2>Tutorial: Ethereum Honduras Grants</h2>
     <p>
       Esta es una descripción general de cómo funciona todo detrás de escena
       para que puedas aprender qué esperar durante la duración de la ronda.
     </p>
     <p>
       ¿Buscas guías sobre cómo participar? Consulta nuestras guías
-      específicamente para contribuir y unirte como proyecto.
+      específicamente para contribuir y aplicar como proyecto.
     </p>
     <ul>
       <li>
         <links to="/about/how-it-works/contributors"
-          >Guía para colaboradores</links
+          >Guía para Contribuyentes</links
         >
       </li>
       <li>
-        <links to="/about/how-it-works/recipients">Guía para recipientes</links>
+        <links to="/about/how-it-works/recipients">Guía para Aplicantes de Proyecto</links>
       </li>
     </ul>
 
@@ -28,25 +28,25 @@
       <links to="/about/quadratic-finance">
         Descripción General sobre el Financiamiento Cuadrático </links
       >, los proyectos recibirán financiamiento de contribuciones individuales,
-      así como del fondo de contrapartida. Cuando contribuyes a tus proyectos
+      así como del Fondo de Contrapartida. Cuando contribuyes a tus proyectos
       favoritos, tu contribución también actúa como un voto. Cuantas más
       contribuciones reciba un proyecto, más votos. Y cuantos más votos obtenga
-      un proyecto, más recibirán del grupo correspondiente. Aunque una mayor
+      un proyecto, más recibirán del Fondo de Contrapartida. Aunque una mayor
       contribución individual equivaldrá a una mayor ponderación de votos, es
       mucho más importante recibir un gran volumen de contribuciones únicas que
       solo unas pocas contribuciones de alto valor.
     </p>
     <p>
-      Dado que la ronda de financiación también es un voto público, necesita
+      Dado que la ronda de financiamiento también es un voto público, necesita
       plazos. La ronda se divide en varias fases para que, una vez realizadas
       todas las contribuciones o los votos, puedan contarse y confirmarse antes
-      de la distribución final del grupo de contrapartida.
+      de la distribución final del fondo de contrapartida.
     </p>
     <h2>Fases de la Ronda de Financiamiento</h2>
-    <h3>Fase de inscripción phase</h3>
+    <h3>1. Fase de inscripción</h3>
     <p>
       Para comenzar, se invitará a los proyectos a
-      <links to="/join"> unirse a la ronda </links>. Si eres un colaborador
+      <links to="/join"> unirse a la ronda </links>. Si eres un contribuyente
       entusiasta, podrás explorar los proyectos y agregarlos a tu carrito, pero
       todavía no podrás contribuir.
     </p>
@@ -54,7 +54,7 @@
     <ul>
       <li>Habrá un máximo de {{ maxRecipients }} proyectos en la ronda.</li>
       <li>
-        Los proyectos deben cumplir
+        Los proyectos deben cumplir con los 
         <links to="/join"> criterios de ronda</links>.
       </li>
       <li>
@@ -62,10 +62,10 @@
         <links to="/verify"> configuración para contribuir </links>.
       </li>
     </ul>
-    <h3>Fase de Contribución</h3>
+    <h3>2. Fase de Contribución</h3>
     <p>
-      El lanzamiento de la fase de contribución sigue a la fase de unión y marca
-      el inicio oficial de la ronda de financiación. Este es el momento para que
+      El lanzamiento de la fase de contribución sigue a la fase de inscripción y marca
+      el inicio oficial de la ronda de financiamiento. Este es el momento para que
       agregues tus proyectos favoritos a su carrito y contribuyas.
     </p>
     <h4>Necesitas saber</h4>
@@ -86,11 +86,11 @@
     </ul>
 
     <p>
-      Si no contribuye en la fase de contribución, la ronda termina para usted
+      Si no contribuye en la fase de contribución, la ronda termina para ti
       una vez que finaliza esta fase.
     </p>
 
-    <h3>Fase de Reasignación</h3>
+    <h3>3. Fase de Reasignación</h3>
     <p>
       Durante esta fase, si has contribuido, tendrás tiempo para cambiar de
       opinión. Puedes editar los montos de tu contribución o agregar / eliminar
@@ -111,14 +111,14 @@
         fondos.
       </li>
     </ul>
-    <h3>Fase de Conteo</h3>
+    <h3>4. Fase de Conteo</h3>
     <p>
       En este punto, todas las contribuciones son definitivas y ahora se pueden
       contabilizar. El coordinador de la ronda activa
       <links to="/about/maci"> MACI </links> y los contratos inteligentes para
       calcular la cantidad del grupo correspondiente que obtendrá cada proyecto.
     </p>
-    <h3>Fase Finalizada</h3>
+    <h3>5. Fase de Cierre</h3>
     <p>
       Una vez que se completan los cálculos de recuento, se finaliza la ronda.
       ¡Los propietarios de proyectos pueden venir y reclamar su financiación!
