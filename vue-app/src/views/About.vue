@@ -2,16 +2,16 @@
   <div class="about">
     <h1 class="content-heading">Acerca</h1>
 
-    <h2>Qué es clr.fund?</h2>
+    <h2>¿Qué es clr.fund?</h2>
     <p>
-      Clr.fund, pronunciado "Clear Fund", es un protocolo para la asignación
+      Clr.fund, pronunciado "C L R Fund", es un protocolo para la asignación
       eficiente de fondos a bienes públicos que benefician a la Red Ethereum de
       acuerdo con las preferencias de la Comunidad. Clr.fund se esfuerza por
       lograr neutralidad, descentralización, sin necesidad de permisos, sin
       necesidad de confianza y pseudonimato creíbles.
     </p>
 
-    <h2>Por qué existe clr.fund?</h2>
+    <h2>¿Por qué existe clr.fund?</h2>
     <p>
       Asignar fondos a
       <links to="/about/public-goods">bienes públicos</links> — productos
