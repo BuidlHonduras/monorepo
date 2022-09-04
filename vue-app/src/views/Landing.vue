@@ -9,11 +9,9 @@
         </div>
         <div>
           <div class="hero-content">
-            <h1>Manda tu proyecto de BUIDL favorito hasta la luna!</h1>
+            <h1>Manda tu proyecto favorito hasta la luna!</h1>
             <div id="subtitle" class="subtitle">
-              Cada proyecto al que contribuyas obtiene una porción extra de
-              financiamiento.
-            </div>
+                ¡Estás listo para aplicar y votar en la segunda convocatoria de 2022! Puedes participar presentando proyectos de bienes públicos y contribuyendo con tu voto para asignar el financiamiento.
             <div class="btn-group">
               <links to="/projects" class="btn-action">Ir al app</links>
               <div class="btn-white" @click="scrollToHowItWorks">
@@ -67,16 +65,15 @@
             title="wormhole"
             alt="Image of spaceships funneling through a wormhole and getting bigger"
           />
-          <h2>Así Funciona</h2>
+          <h2>Así Funciona la Convocatoria Ethereum Honduras Grants</h2>
           <ol>
             <li>
-              {{ operator }} y otros donantes envían fondos a un contract de
-              pool de donaciones.
+              {{ operator }} y otros donantes envían fondos a un contrato inteligente, que agrupa las donaciones para está convocatoria.
             </li>
             <li>
-              La ronda de financiamiento inicia y puedes donar a cuantos
-              proyectos quieras.
+                El 7 de septiembre se hará un meetup para que conozcas tips para presentar proyectos.
             </li>
+            <li>El 24 de septiembre se hará una presentación de todos los proyectos para que los conozcas un poco mejor antes de votar. Cuando inicia la ronda de financiamiento puedes donar a cuantos proyectos quieras.</li>
             <li>
               Una vez termina la ronda, el contrato inteligente distribuye los
               fondos del pool de donaciones a los proyectos basado en el número
@@ -123,36 +120,27 @@
       </div>
       <div id="about-section">
         <div id="about-1">
-          <h2>No se trata de cuanto...</h2>
+          <h2>No se trata de la cantidad...</h2>
           <p>
-            Usando financiamiento cuadráticos, tu contribución cuenta como un
-            voto. Los proyectos con la mayor cantidad de contribuciones al final
-            de la ronda obtienen la mayor cantidad del fondo de contrapartida.
-            Eso significa que incluso una pequeña donación puede tener un
-            impacto enorme.
+            Utilizando financiamiento cuadrático, tu contribución cuenta como un voto. Los proyectos con el mayor número de contribuciones al final de la ronda obtienen más financiamiento del Fondo de Contrapartida. Esto significa que incluso una pequeña donación puede tener un grán impacto.
           </p>
           <p>
             <links to="/about/quadratic-funding"
-              >Acerca de financiamiento cuadrático</links
+              >Más sobre financiamiento cuadrático</links
             >
           </p>
         </div>
         <div id="about-2">
           <h2>Protégete contra el soborno</h2>
           <p>
-            Con MACI, una tecnología de conocimiento cero, es imposible
-            demostrar cómo una persona contribuyó. ¡Esto vuelve locos a los
-            sobornadores porque no tienen idea de si realmente hiciste lo que te
-            sobornaron para que hicieras!
+            Con MACI, una tecnología que implementa encriptación "zero knowledge", es imposible comprobar cómo contribuiste. Esto vuelve locos a quienes quieren sobornarte, ya que no pueden tener idea si realmente hiciste lo que ellos quieren que hagas al recibir sus sobornos.
           </p>
           <links to="/about/maci">Acerca de MACI</links>
         </div>
         <div id="about-3">
-          <h2>Construido usando el protocolo CLR</h2>
+          <h2>Construido utilizando el protocolo CLR</h2>
           <p>
-            clr.fund es un protocolo para la asignación eficiente de fondos a
-            bienes públicos que benefician a la Red Ethereum de acuerdo con las
-            preferencias de la Comunidad Ethereum.
+            Clr.fund es un protocolo utilizado para asignar fondos para bienes públicos, eficientemente. Esto beneficia al Ethereum Network de acuerdo a las preferencias de la comunidad Ethereum.
           </p>
           <links to="/about">Acerca de clr.fund</links>
         </div>
