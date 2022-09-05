@@ -32,7 +32,7 @@
         </links>
       </p>
     </div>
-    <h2>Registra tyu proyecto</h2>
+    <h2>Registra tu proyecto</h2>
     <ol>
       <li>Dirígete a la <links to="/join">página de ingreso </links>.</li>
       <li>
@@ -52,11 +52,11 @@
           <li>
             conectarse a la red correcta a través de su billetera de elección
           </li>
-          <li>enviando un depósito de 0.1 ETH al contrato de registro.</li>
+          <li>enviando un depósito de 0.1 xDAI al contrato de registro.</li>
         </ol>
         Los proyectos se aceptan de forma predeterminada, pero el administrador
         del registro puede eliminar los proyectos que no cumplan con los
-        criterios. De cualquier manera, se le devolverá su ETH una vez que su
+        criterios. De cualquier manera, se le devolverá su xDAI una vez que su
         solicitud haya sido aceptada o rechazada. Tenga en cuenta que los
         metadatos que apuntan a toda la información de su proyecto (pero no a la
         información de contacto) se almacenarán públicamente en blockchain.
@@ -73,7 +73,7 @@
     <h2>¿Cómo funciona Clr.fund?</h2>
     <p>
       ¿Buscas una descripción más general?
-      <links to="/about/how-it-works">Check out our "How It Works" page</links>.
+      <links to="/about/how-it-works">Revisa nuestra página de "Como Funciona"</links>.
     </p>
   </div>
 </template>

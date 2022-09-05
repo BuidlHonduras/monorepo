@@ -54,7 +54,7 @@
     <ul>
       <li>Habrá un máximo de {{ maxRecipients }} proyectos en la ronda.</li>
       <li>
-        Los proyectos deben cumplir con los 
+        Los proyectos deben cumplir con los
         <links to="/join"> criterios de ronda</links>.
       </li>
       <li>
@@ -135,7 +135,7 @@
         y el conteo de resultados de la Ronda.
       </li>
       <li>
-        <links to="/about/sybil-resistance">BrightID</links> – para protegerse
+        <links to="/about/sybil-resistance">POAP</links> – para protegerse
         contra los ataques de sybil
       </li>
     </ul>

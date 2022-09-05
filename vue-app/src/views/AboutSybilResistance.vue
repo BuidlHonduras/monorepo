@@ -28,7 +28,15 @@
       históricamente, no hemos tenido métodos sólidos para detener los sybil
       attack en línea.
     </p>
-
+    <h2>Resistencia Sybil y POAP</h2>
+    <p>
+      POAP es una plataforma que utilizamos para aumentar nuestra confianza
+      en que solo está contribuyendo una vez. Cada vez que participas en un evento, te damos un POAP, una insignia única respaldada por un registro criptográfico. El cual nos sirve para verificar que la persona que tiene el poap es un usuario real.
+    </p>
+    <p>
+     Para conseguir tu POAP debes participar en una actividad física o virtual de la comunidad de Ethereum Honduras.
+    </p>
+<!--
     <h2>Resistencia Sybil y BrightID</h2>
     <p>
       BrightID es una plataforma que utilizamos para aumentar nuestra confianza
@@ -101,7 +109,7 @@
       dirección de Ethereum, todas las contribuciones de tu dirección anterior
       serán ignoradas por el grupo correspondiente. De nuevo, esto es para
       evitar sybil attacks.
-    </p>
+    </p> -->
   </div>
 </template>
 

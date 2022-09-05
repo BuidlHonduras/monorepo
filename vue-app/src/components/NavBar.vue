@@ -55,10 +55,10 @@ export default class NavBar extends Vue {
   showHelpDowndown = false
   profileImageUrl: string | null = null
   dropdownItems: { to?: string; text: string; emoji: string }[] = [
-    { to: '/about', text: 'About', emoji: 'ℹ️' },
-    { to: '/about/how-it-works', text: 'How it works', emoji: '⚙️' },
-    { to: '/about/maci', text: 'Bribery protection', emoji: '🤑' },
-    { to: '/about/sybil-resistance', text: 'Sybil resistance', emoji: '👤' },
+    { to: '/about', text: 'Acerca', emoji: 'ℹ️' },
+    { to: '/about/how-it-works', text: 'Como funciona', emoji: '⚙️' },
+    { to: '/about/maci', text: 'Protección de Sobornos', emoji: '🤑' },
+    { to: '/about/sybil-resistance', text: 'Resistencia Sybil', emoji: '👤' },
     {
       to: 'https://github.com/clrfund/monorepo/',
       text: 'Code',
