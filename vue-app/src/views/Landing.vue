@@ -203,8 +203,8 @@ export default class Landing extends Vue {
 
   get joinButtonText(): string {
     return this.$store.getters.isRoundContributionPhase
-      ? 'Join Round'
-      : 'Join Next Round'
+      ? 'Únete a la ronda'
+      : 'Únete a la siguiente ronda'
   }
 
   get operator(): string {
