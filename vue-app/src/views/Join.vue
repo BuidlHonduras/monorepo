@@ -130,7 +130,7 @@
               </div>
               <div class="form-background">
                 <label for="project-category" class="input-label"
-                  >Category
+                  >Categoría
                   <p class="input-description">Elija el que mejor se adapte.</p>
                 </label>
                 <form class="radio-row" id="category-radio">
@@ -229,7 +229,7 @@
                 </p>
                 <textarea
                   id="project-problem-space"
-                  placeholder="ex: there is no way to spin up a quadratic funding round. Right now, you have to collaborate with GitCoin Grants which isn’t a scalable or sustainable model."
+                  placeholder="ejemplo: no hay forma de levantar una ronda de financiamiento cuadrático en este momento."
                   v-model="$v.form.project.problemSpace.$model"
                   :class="{
                     input: true,

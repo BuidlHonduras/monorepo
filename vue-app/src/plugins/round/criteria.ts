@@ -6,8 +6,20 @@ export interface Criterion {
 
 const baseCriterion: Criterion[] = [
   {
+    emoji: '⛓️',
+    criterion: 'Basado en Ethereum',
+    description:
+        'Proyectos basados en Ethereum o tecnologías relacionadas con Ethereum (por ejemplo, investigación o herramientas de criptografía).',
+  },
+  {
+    emoji: '🇭🇳',
+    criterion: 'Con integrantes Hondureños',
+    description:
+        'El equipo tiene que ser parte de la comunidad hondureña, con miembros físicos trabajando en Honduras.',
+  },
+  {
     emoji: '😺',
-    criterion: 'Gratis, Open Source o Bien Público',
+    criterion: 'Gratis, Open Source, CC0 o Bien Público',
     description:
       'El código de tu proyecto debe estar disponible para cualquiera bajo una licencia de código abierto, ser gratis o tener algún bien público.',
   },
@@ -18,7 +30,7 @@ const baseCriterion: Criterion[] = [
       'Obviamente, tu proyecto no debe poner los fondos o información de nadie en riesgo.',
   },
   {
-    emoji: '👯‍♀️',
+    emoji: '🤖',
     criterion: 'No clones',
     description:
       'Si copiaste código, debes proveer un valor adicional y único al ecosistema.',
@@ -41,10 +53,10 @@ const baseCriterion: Criterion[] = [
  */
 const ADDITIONAL_CRITERION: Criterion[] = [
   {
-    emoji: '💰',
-    criterion: 'Basado en Ethereum y con integrantes Hondureños',
+    emoji: '👯‍♀️',
+    criterion: 'Evita el Multitasking',
     description:
-      'Queremos que los fondos tengan un impacto en la comunidad local o sus integrantes.',
+      'No se aceptan proyectos con los mismos miembros de un equipo.',
   },
 ]
 

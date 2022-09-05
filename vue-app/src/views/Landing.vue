@@ -92,7 +92,7 @@
       <div id="what-you-will-need">
         <div class="pre-req">
           <div class="icon-row">
-            <img :src="require(`@/assets/${chain.logo}`)" id="chain-icon" style="height:3rem!impoortant;filter: contrast(0) brightness(100);" />
+            <img :src="require(`@/assets/${chain.logo}`)" id="chain-icon" style="height:3rem!important; filter: contrast(0) brightness(100);" />
             <p>
               <b>{{ chain.label }} para transacciones rápidas y baratas</b>
             </p>
