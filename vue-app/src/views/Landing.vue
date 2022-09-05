@@ -12,6 +12,7 @@
             <h1>Manda tu proyecto favorito hasta la luna!</h1>
             <div id="subtitle" class="subtitle">
                 ¡Estás listo para aplicar y votar en la segunda convocatoria de 2022! Puedes participar presentando proyectos de bienes públicos y contribuyendo con tu voto para asignar el financiamiento.
+            </div>
             <div class="btn-group">
               <links to="/projects" class="btn-action">Ir al app</links>
               <div class="btn-white" @click="scrollToHowItWorks">
