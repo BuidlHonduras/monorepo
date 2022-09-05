@@ -67,8 +67,8 @@ import { ipfsGatewayUrl } from '@/api/core'
 
 import Loader from '@/components/Loader.vue'
 import IpfsCopyWidget from '@/components/IpfsCopyWidget.vue'
-
-import IPFS from 'ipfs-mini'
+import { IPFS } from '@/api/ipfs'
+// import IPFS from 'ipfs-mini'
 
 @Component({
   components: {
@@ -90,14 +90,19 @@ export default class IpfsImageUpload extends Vue {
   loadedImageWidth: number | null = null
   error = ''
 
+
   created() {
-    this.ipfs = new IPFS({
-      host: 'https://ipfs.infura.org:5001/api/v0/pin/add?arg='+ process.env.VUE_APP_INFURA_IPFS_ID,
-      port: 5001,
-      protocol: 'https',
-      id:
-    })
+    this.ipfs = new IPFS()
   }
+
+//   created() {
+//     this.ipfs = new IPFS({
+//       host: 'https://ipfs.infura.org:5001/api/v0/pin/add?arg='+ process.env.VUE_APP_INFURA_IPFS_ID,
+//       port: 5001,
+//       protocol: 'https',
+//       id:
+//     })
+//   }
 
   // TODO raise error if not valid image (JPG / PNG / GIF)
   handleLoadFile(event) {
