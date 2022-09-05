@@ -66,7 +66,7 @@
             title="wormhole"
             alt="Image of spaceships funneling through a wormhole and getting bigger"
           />
-          <h2>Así Funciona la Convocatoria Ethereum Honduras Grants</h2>
+          <h2>Así Funciona la convocatoria de Ethereum Honduras Grants</h2>
           <ol>
             <li>
               {{ operator }} y otros donantes envían fondos a un contrato inteligente, que agrupa las donaciones para está convocatoria.
@@ -92,7 +92,7 @@
       <div id="what-you-will-need">
         <div class="pre-req">
           <div class="icon-row">
-            <img :src="require(`@/assets/${chain.logo}`)" id="chain-icon" />
+            <img :src="require(`@/assets/${chain.logo}`)" id="chain-icon" style="height:3rem!impoortant;filter: contrast(0) brightness(100);" />
             <p>
               <b>{{ chain.label }} para transacciones rápidas y baratas</b>
             </p>
@@ -101,7 +101,7 @@
             :to="chain.isLayer2 ? '/about/layer-2' : chain.bridge"
             class="btn-action"
           >
-            Obtén {{ chain.label }}
+            Obtén {{ chain.currency }}
           </links>
         </div>
         <!--        <div class="pre-req" id="bright-id">-->
