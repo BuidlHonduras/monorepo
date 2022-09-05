@@ -92,9 +92,10 @@ export default class IpfsImageUpload extends Vue {
 
   created() {
     this.ipfs = new IPFS({
-      host: 'ipfs.infura.io',
+      host: 'https://ipfs.infura.org:5001/api/v0/pin/add?arg='+ process.env.VUE_APP_INFURA_IPFS_ID,
       port: 5001,
       protocol: 'https',
+      id:
     })
   }
 
