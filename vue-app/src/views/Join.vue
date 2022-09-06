@@ -256,7 +256,7 @@
             <div class="inputs">
               <div class="form-background">
                 <label for="fund-address" class="input-label"
-                  >Wallet de Ethereum</label
+                  >Wallet de Ethereum o ENS</label
                 >
                 <p class="input-description">
                   No es necesario que sea la misma dirección que utilizas para
