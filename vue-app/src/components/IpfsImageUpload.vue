@@ -20,7 +20,7 @@
         type="submit"
         label="Subir"
         class="btn-primary"
-        :disabled="loading || error || !loadedImageData"
+        :disabled="loading || error || !loadedImageHeight"
       >
         {{ loading ? 'Uploading...' : 'Upload' }}
       </button>
@@ -85,7 +85,7 @@ export default class IpfsImageUpload extends Vue {
   ipfs: any = null
   hash = ''
   loading = false
-  loadedImageData = ''
+  loadedImageFile: File | null = null
   loadedImageHeight: number | null = null
   loadedImageWidth: number | null = null
   error = ''
@@ -119,11 +119,12 @@ export default class IpfsImageUpload extends Vue {
       this.error = 'Upload an image smaller than 512 kB'
       return
     }
+
     const reader = new FileReader()
     reader.onload = (() => (e) => {
-      this.loadedImageData = e.target.result
+      this.loadedImageFile = data
       const img = new Image()
-      img.src = this.loadedImageData
+      img.src = String(e.target?.result)
       img.onload = () => {
         this.loadedImageHeight = img.height
         this.loadedImageWidth = img.width
@@ -137,19 +138,18 @@ export default class IpfsImageUpload extends Vue {
     event.preventDefault()
     // Work-around: Raw image data can be loaded through an SVG
     // https://github.com/SilentCicero/ipfs-mini/issues/4#issuecomment-792351498
-    const fileContents = `<svg x="0" y="0" width="${this.loadedImageWidth}" height="${this.loadedImageHeight}" viewBox="0 0 ${this.loadedImageWidth} ${this.loadedImageHeight}" xmlns="http://www.w3.org/2000/svg"><image href="${this.loadedImageData}" /></svg>`
     if (
-      this.loadedImageData !== '' &&
+      this.loadedImageFile &&
       this.loadedImageHeight &&
       this.loadedImageWidth
     ) {
       this.loading = true
       this.ipfs
-        .add(fileContents)
+        .add(this.loadedImageFile)
         .then((hash) => {
           this.hash = hash
           /* eslint-disable-next-line no-console */
-          console.log(`Uploaded file hash: ${hash}`)
+          console.log(`Uploaded file hash:`, hash)
           this.onUpload(this.formProp, hash)
           this.loading = false
         })
@@ -165,7 +165,6 @@ export default class IpfsImageUpload extends Vue {
   handleRemoveImage(): void {
     this.hash = ''
     this.loading = false
-    this.loadedImageData = ''
     this.error = ''
     this.onUpload(this.formProp, '')
 
